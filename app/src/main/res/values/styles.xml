@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="appTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- App branding color for the app bar -->
+        <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/blue_700</item>
+        <!-- Theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/blue_200</item>
+        <!-- Theme button controls -->
+        <item name="buttonStyle">@style/Widget.AppCompat.Button.Colored</item>
+
+    </style>
+
+    <!-- Style for header text in the order form -->
+    <style name="HeaderTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">15sp</item>
+        <item name="textAllCaps">true</item>
+    </style>
+</resources>
