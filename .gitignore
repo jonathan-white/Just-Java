@@ -1,5 +1,18 @@
 *.iml
+
+
+# gradle files
 .gradle
+
+.idea/
+
+## File formats
+*.ipr
+*.iws
+
+# IntelliJ
+/out/
+
 /local.properties
 /.idea/caches
 /.idea/libraries
